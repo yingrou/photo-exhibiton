@@ -1,0 +1,544 @@
+body .icon {
+  font-size: 24px;
+}
+
+img {
+  width: 100%;
+}
+
+.home-header .icon {
+  margin: 0 10px;
+}
+
+.home-header {
+  box-shadow: 0 0 10px grey;
+  padding: 15px;
+  display: table;
+  width: 100%;
+  background-color: #141414;
+  font-size: 20px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.pink {
+  color: #f33f3f;
+}
+
+.home-footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 24px;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  background-color: #141414;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 999;
+}
+
+.home-footer a {
+  color: white;
+}
+
+.home-footer .icon {
+  width: 18%;
+}
+
+.home-footer .add-icon {
+  font-size: 30px;
+}
+
+.sideHide {
+  transform: translate3d(-100%, 0px, 0px);
+}
+
+.side-bar {
+  position: absolute;
+  top: 0;
+  width: 75%;
+  height: 100%;
+  background-color: white;
+  z-index: 9999;
+  transition: all 0.5s;
+}
+
+.side-bar .side-top img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.side-bar .side-top {
+  position: relative;
+  background-color: #141414;
+  overflow: hidden;
+  color: white;
+  padding: 60px 20px 20px;
+}
+
+.side-top .name {
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.side-top .e-mail {
+  color: gainsboro;
+}
+
+.side-bar .side-list {
+  margin: 20px;
+}
+
+.side-list li {
+  line-height: 45px;
+}
+
+.side-list .icon {
+  margin-right: 10px;
+}
+
+.side-list {
+  padding-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.side-bg {
+  position: fixed;
+  z-index: 9990;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* ----登陆注册----- */
+
+.login input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+}
+
+.login {
+  color: gray;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 37px;
+}
+
+.login a {
+  color: gray;
+  float: right;
+}
+
+.login .button {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #ac975e;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.app-container .bg img {
+  position: fixed;
+  bottom: 50px;
+  z-index: -1;
+  width: 100%;
+}
+
+
+
+/* ------------home------------ */
+.pic-header {
+  padding: 10px 20px;
+
+  display: table;
+  width: 100%;
+}
+
+.pic-header h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  color: #dc7f24;
+}
+
+.pic-header p {
+  padding-left: 50px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.pic-header .operation .icon {
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%
+}
+
+.app-container {
+  padding-bottom: 60px;
+}
+
+.pic-list li {
+  padding-bottom: 10px;
+}
+
+.pic-list .reason {
+  font-size: 13px;
+  line-height: 20px;
+  text-indent: 20px;
+  padding: 10px;
+  border-bottom: 2px solid #ffdda9;
+}
+
+.pic-footer {
+  margin: 5px 10px;
+  line-height: 22px;
+}
+
+.pic-footer .icon-line .icon {
+  margin-right: 15px;
+}
+
+.pic-footer .like {
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.pic-footer .tag span {
+  margin-right: 10px;
+  line-height: 35px;
+  text-decoration: underline;
+}
+
+.pic-footer .detail {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.add-comment {
+  width: 100%;
+  display: table;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-top: 1px solid #c7c5c5;
+}
+
+.add-comment textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-comment span {
+  background-color: #ac975e;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.add-comment span.cancel {
+  background-color: grey;
+}
+
+
+/* ----------推荐----------- */
+.recommend-tag,
+.recommend-pic {
+  padding: 10px 20px;
+}
+
+.recommend-tag header {
+  height: 35px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.recommend-tag .more {
+  font-size: 13px;
+  color: #ac975e;
+}
+
+.recommend-tag .tag-list {
+  margin: 0 -10px;
+  height: 130px;
+}
+
+.recommend-tag .tag-list li {
+  width: 33.3%;
+  padding: 0 2%;
+  float: left;
+  text-align: center;
+}
+
+.recommend-tag .tag-list img {
+  border-radius: 5px;
+}
+
+.recommend-pic header {
+  height: 40px;
+}
+
+/* ----------发布---------- */
+.app-container.publish {
+  padding: 15px 20px 60px;
+  background-color: #fff;
+}
+
+.publish h3 {
+  margin: 5px 0 15px;
+}
+
+.publish .add {
+  background: #fbfbfb;
+  margin: 0 -20px;
+  padding: 10px 20px;
+}
+
+.add-detail input,
+.add-tag input {
+  border: 1px solid #cecece;
+  line-height: 30px;
+  width: 100%;
+  margin: 10px 0;
+  text-indent: 10px;
+  border-radius: 5px;
+}
+
+.publish .add-pic p {
+  margin-bottom: 10px;
+}
+
+.publish .add span {
+  font-size: 12px;
+  color: gray;
+}
+
+.publish header {
+  height: 45px;
+}
+
+.publish header img {
+  width: 100px;
+  margin-top: -15px;
+}
+
+.file {
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #fff;
+  background-color: #909090;
+}
+
+.publish .add-pic .file p {
+  margin: 0;
+}
+
+.file-btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  outline: none;
+  background-color: transparent;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+.publish .add-pic {
+  position: relative;
+}
+
+.publish span.add-btn {
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 30px;
+  background: #ac975e;
+  border-radius: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 13px;
+}
+
+
+/* -----------tag --------------- */
+.tag-detail {
+  display: table;
+  padding: 1%;
+}
+
+.tag-detail li {
+  width: 50%;
+  padding: 2% 1%;
+  position: relative;
+  float: left;
+}
+
+.tag-detail img {
+  border-radius: 5px;
+  height: 50vw;
+  opacity: 0.9;
+}
+
+.tag-detail .tag-name {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: #48484845;
+}
+
+/* -------------用户管理---------- */
+
+.info-detail {
+  position: absolute;
+  right: 30px;
+  top: 100px;
+  text-align: right;
+}
+
+.info-detail p {
+  line-height: 45px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info-header .avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.info-header .bg {
+  height: 230px;
+}
+
+.user-pic h3 {
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 2px solid #ac975e;
+  color: #ac975e;
+}
+
+.user-pic ul {
+  margin: 2% 1%;
+}
+
+.user-pic li {
+  width: 48%;
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+}
+
+.user-pic li img {
+  height: 50vw;
+}
+
+.app-container.user-manage {
+  display: table;
+}
+
+
+/* ---------------tagDetail-------------- */
+.tag-intro {
+  color: white;
+  background-color: #141414;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.tag-intro .info {
+  position: relative;
+  top: 15%;
+}
+
+.tag-intro .info h3 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.tag-intro .line {
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  top: 55px;
+  transform: translate(-50%);
+}
+
+.tag-intro .article p {
+  position: absolute;
+  left: 50%;
+  top: 47px;
+  padding: 0px 10px;
+  transform: translate(-50%);
+  background-color: #141414;
+}
+
+.tag-intro .upload {
+  margin-top: 50px;
+  background-color: #ac975e;
+  border: 1px solid #ac975e;
+  padding: 8px 20px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.tag-picList li {
+  margin: 20px;
+}
+.admin {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #6b798b87;
+  border-radius: 10px;
+}
+.admin p{
+  margin: 15px 0;
+}
+.admin-login .loginForm{
+  width: 400px;
+  padding: 40px 60px 20px 20px;
+  margin: 150px auto 0;
+  border: 1px solid gainsboro;
+}
+.admin-login h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5cbe8082b084ce256c06b722"},"name":"猫咪","__v":0,"imgSrc":"../../../static/images/miao1.jpg"}
+{"_id":{"$oid":"5cbe8082b084ce256c06b723"},"name":"风景","__v":0,"imgSrc":"../../../static/images/feng1.jpg"}
+{"_id":{"$oid":"5cbe8ab0708d701190355fb1"},"name":"食物","__v":0,"imgSrc":"../../../static/images/food1.jpg"}
+{"_id":{"$oid":"5cbe8ab0708d701190355fb2"},"name":"花","__v":0,"imgSrc":"../../../static/images/hua1.jpg"}
+{"_id":{"$oid":"5cbe8ab0708d701190355fb3"},"name":"人像","__v":0,"imgSrc":"../../../static/images/ren1.jpg"}
+{"_id":{"$oid":"5cbe8ab0708d701190355fb4"},"name":"书法","__v":0,"imgSrc":"../../../static/images/shu1.jpg"}
+{"_id":{"$oid":"5cbe8ab0708d701190355fb5"},"name":"天空","__v":0,"imgSrc":"../../../static/images/sky1.jpg"}
